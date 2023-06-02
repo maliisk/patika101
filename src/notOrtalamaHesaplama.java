@@ -4,7 +4,7 @@ public class notOrtalamaHesaplama {
     public static void main(String[] args) {
         Scanner k= new Scanner(System.in);
 
-        int mat,fiz,kim,tur,tar,muz;
+        double mat,fiz,kim,tur,tar,muz;
         double ort=0;
 
         /** Kullanıcıdan ders verileri alma */
