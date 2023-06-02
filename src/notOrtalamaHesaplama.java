@@ -7,11 +7,7 @@ public class notOrtalamaHesaplama {
         double mat,fiz,kim,tur,tar,muz;
         double ort=0;
 
-
-
-
         System.out.println("Lütfen Ders Notlarınızı Giriniz: ");
-
         System.out.println("Matematik Dersi Notunuzu Giriniz : ");
         mat=k.nextInt();
         System.out.println("Fizik Dersi Notunuzu Giriniz : ");
