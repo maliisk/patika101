@@ -7,7 +7,7 @@ public class notOrtalamaHesaplama {
         double mat,fiz,kim,tur,tar,muz;
         double ort=0;
 
-        /** Kullanıcıdan ders verileri alma */
+
 
 
         System.out.println("Lütfen Ders Notlarınızı Giriniz: ");
@@ -27,6 +27,10 @@ public class notOrtalamaHesaplama {
 
         ort=(mat+fiz+kim+tur+tar+muz)/6;
         System.out.println("Derslerinizin Ortalaması : " + ort + " 'dir");
+
+        System.out.println(ort > 60 ? "Sınıfı geçtiniz" : "Sınıfta kaldınız");
+
+
 
     }
 }
