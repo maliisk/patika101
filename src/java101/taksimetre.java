@@ -9,7 +9,7 @@ public class taksimetre {
 
         Scanner k = new Scanner(System.in);
         System.out.println("Km değeri giriniz: ");
-        mesafe=k.nextInt();
+        mesafe=k.nextDouble();
 
         mesafe=mesafe*(2.20);
         top=top+mesafe;
