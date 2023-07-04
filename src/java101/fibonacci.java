@@ -11,7 +11,7 @@ public class fibonacci {
         System.out.print(n + " Elemanlı Fibonacci Serisi: ");
         for (int i=1; i<=n; i++){
             System.out.print(n1 + " ");
-            int total = n1 + n2;
+            int total ;
             total=n1+n2;
             n1=n2;
             n2=total;
