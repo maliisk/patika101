@@ -47,7 +47,7 @@ public class Employee {
         return increasedSalary;
     }
     public void print() {
-        System.out.println("Adı : " + this.name);
+        System.out.println("Name : " + this.name);
         System.out.println("Salary : " + this.salary);
         System.out.println("Work hours: " + this.workHours);
         System.out.println("The year of starting work : " + this.hireYear);
