@@ -3,11 +3,6 @@ package studentInformationSystem;
 public class Main {
     public static void main(String[] args) {
 
-        /*
-            PatikaDev Java101 - Student Grading System
-            The program that calculates the student's grade point average based on the grades entered.
-            Note: There is no exception checking.
-         */
 
         Course mat = new Course("Matematik", "MAT101", "MAT");
         Course fizik = new Course("Fizik", "FZK101", "FZK");
