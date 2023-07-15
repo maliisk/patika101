@@ -17,30 +17,30 @@ public class numbersGuessingGame {
 
 
         while (right<5){
-            System.out.print("Lütfen Tahmininizi Giriniz : ");
+            System.out.print("Please enter your guess : ");
             selected = input.nextInt();
             if (selected<0 || selected>99){
-                System.out.println("Lütfen 0-100 aralığında bir değer giriniz ! ");
+                System.out.println("Please enter a value in the range of 0-100 ! ");
                 continue;
             }
             if (selected==number){
-                System.out.println("Tebrikler doğru tahmin ! " + number);
+                System.out.println("Congrats on the correct guess! " + number);
                 isWin= true;
                 break;
             }else {
-                System.out.println("Tahmininiz doğru değil ! ");
+                System.out.println("Your guess is not correct!");
                 if (selected>number){
-                    System.out.println(selected + " Sayısı , doğru sayıdan büyüktür ! ");
+                    System.out.println(selected + " The number is greater than the correct number ! ");
                 }else {
-                    System.out.println(selected + " Sayısı , doğru sayıdan küçüktür ! ");
+                    System.out.println(selected + " The number is smaller than the correct number! ");
                 }
                 wrong[right++]=selected;
-                System.out.println("Kalan hakkı  : " + (5-right));
+                System.out.println("Remaining right : " + (5-right));
             }
         }
         if (!isWin){
-            System.out.println("Kaybettiniz ! ");
-            System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
+            System.out.println("You Lost !");
+            System.out.println("Your guesses are : " + Arrays.toString(wrong));
 
         }
 
