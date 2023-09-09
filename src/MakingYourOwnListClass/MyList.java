@@ -2,12 +2,8 @@ package MakingYourOwnListClass;
 
 class Main {
     public static void main(String[] args) {
-        /*
-            PatikaDev Java102 - Making Your Own List Class
-            Make your own list class without using the collection class.
-         */
 
-        //Patika.Dev ÖRNEK:
+
         MyList<Integer> liste = new MyList<>();
         System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
         liste.add(10);
